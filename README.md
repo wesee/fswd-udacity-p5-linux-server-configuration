@@ -9,20 +9,36 @@
 - [Key file] (#key-file)
 
 ## IP address and SSH port
-52.11.54.109
+52.11.54.109  
 2200
 
 ## URL to web app
-http://ec2-52-11-54-109.us-west-2.compute.amazonaws.com/
+http://ec2-52-11-54-109.us-west-2.compute.amazonaws.com/  
 http://52.11.54.109/
 
 ## Software installed and configuration changes
-
+install Apache2
+install libapache2-mod-wsgi
+install PostgreSQL
+install Git
+install Flask
+create user grader (with sudo) and catalog
+change SSH port to 2200
+configure firewall (UFW)
+change timezone to UTC
 
 ## Third-party resources
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps  
+https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps  
+https://help.ubuntu.com/community/PostgreSQL  
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04  
+https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
+https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2  
+https://wiki.archlinux.org/index.php/SSH_keys
+https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
 
+## Key file  
 
-## Key file
 -----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEArHkt5Gz44L8rbctwwx/VOrj3uh6T3ZdVQVtGpFEBhNDgV6yE
 p7yttW3gjp1zAKxivlPc/DVfUAWseOmJjLlr7MLPrZdFdEB/iiKLPjD5ppU1Jz2j
