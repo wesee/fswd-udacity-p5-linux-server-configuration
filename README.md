@@ -17,15 +17,15 @@ http://ec2-52-11-54-109.us-west-2.compute.amazonaws.com/
 http://52.11.54.109/
 
 ## Software installed and configuration changes
-install Apache2
-install libapache2-mod-wsgi
-install PostgreSQL
-install Git
-install Flask
-create user grader (with sudo) and catalog
-change SSH port to 2200
-configure firewall (UFW)
-change timezone to UTC
+install Apache2  
+install libapache2-mod-wsgi  
+install PostgreSQL  
+install Git  
+install Flask  
+create user grader (with sudo) and catalog  
+change SSH port to 2200  
+configure firewall (UFW)  
+change timezone to UTC  
 
 ## Third-party resources
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps  
